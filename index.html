@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1>DojoWeather</h1>
+            <div class="links" onclick="city()";>
+                <a href="#" alt="burbank">Burbank</a>
+                <a href="#" alt="chicago">Chicago</a>
+                <a href="#" alt="dallas">Dallas</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="column">
+            <div class="row">
+                <h1>San Jose</h1>
+            <form>
+                <p>show tempurature in </p>
+                <select name="temp" id="temp">
+                    <option value="celsius">°C</option>
+                    <option value="Fahrenheit">°F</option>
+                </select>
+            </form>
+            </div>
+            <hr>
+            <div class ="row">
+                <div class="weather">
+                    <h2>Today</h2>
+                    <img src="some_rain.png" alt="rain cloud">
+                    <p>some rain</p>
+                    <div class="nums">
+                        <h2 id="high">24°</h2>
+                        <h2 id="low">18°</h2>
+                    </div>
+                </div>
+                <div class="weather">
+                    <h2>Today</h2>
+                    <img src="some_sun.png" alt="some sun">
+                    <p>some sun</p>
+                    <div class="nums">
+                        <h2 id="high" type="num">27°</h2>
+                        <h2 id="low">19°</h2>
+                    </div>
+                </div>
+                <div class="weather">
+                    <h2>Today</h2>
+                    <img src="some_clouds.png" alt="some clouds">
+                    <p>some clouds</p>
+                    <div class="nums">
+                        <h2 id="high">21°</h2>
+                        <h2 id="low">16°</h2>
+                    </div>
+                </div>
+                <div class="weather">
+                    <h2>Today</h2>
+                    <img src="some_sun.png" alt="some sun">
+                    <p>some sun</p>
+                    <div class="nums">
+                        <h2 id="high">26°</h2>
+                        <h2 id="low">21°</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="cookie">
+        <div class="row">
+            <img src="cookie.png" alt="cookie">
+            <div class="mid">
+            <h2><strong>Stop! Cookie Time</strong></h2>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#" alt="read more">Read more...</a></p>
+            </div>
+        <button type="button" id="but" onclick="gone();">I Accept</button>
+        </div>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
